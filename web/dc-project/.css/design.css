@@ -5,8 +5,14 @@
     padding:0; 
 }
 body{
-    background-color: lightsteelblue;
+    background-color: whitesmoke;
     color: black;
+}
+div#interface{
+    background-color:whitesmoke;
+    width:80%;
+    margin: 0px auto 10px auto;
+    padding: 10px; /* Margem interna da div(add margem entre o menu e o topo da tela*/
 }
 p{
     text-align: justify;
@@ -14,59 +20,51 @@ p{
 }
 #header{
     width:100%;/*cabecalho ocupar toda a extensao da tela*/
-}
-/*FORMATCAO MENU*/
-.div-menu{
-    width: 100%;
+    background-color:whitesmoke;
+    border-bottom:1px #606060 solid; /*dashed(tracejado),dotted(pontilhado),double(dobrar);*/
     height: 110px;
-    margin: 20px auto;
-    position: relative;
+}
+/*FORAMTAÇÃO MENU*/
+.dive-menu{
+    width: 100%;
+    position: fixed;
+    height: 110px;
+    margin: 5px 20px 5px auto;
 }
 .div-menu ul{
-    background-color: whitesmoke;
-    position: fixed;/*fixa o menu no topo/retira o espaço do topo*/
-    width: 100%;
+    background-color: white;
+    width: 75%;
+    margin-left: 160px;
     height: 110px;
-    top:0;
+    top:0px;
     list-style: none;
-
 }
 .div-menu li{
-    /*dispoes os li lado a lado orientado a esquerda*/
-    float: left;
+    float:left;/*dispoem os itens da lista lado a lado orientado a esquerda*/
 }
 .div-menu li a{
-    display: block;
-    padding: 20px 4px;
+    display:block;
+    padding: 20px 4px;/*espaça os itens da lista*/
     font-size: 16pt;
     text-align: center;
     text-transform: uppercase;
     text-decoration: none;
-    color: black;
-    /*faixa inferior nos itens do menu*/
+    color:black;
+    /*faixa inferior nos lis do menu*/
     border-bottom: 2px solid rgb(46, 45, 45);
     margin: 10px 10px 0 0;
-    width: 200px;
-}
-.div-menu li:nth-child(1){
-    margin-left: 15%;
-}
-.div-menu li:nth-child(5) a{
-    margin-right: 0;
-}
-.div-menu li :nth-child(1n+3) a{
-    text-align: right;
+    width:200px;
 }
 .logo{
-    width: 100px;
+    width:100px;
     height: 100px;
     margin-left: 20px;
-    background-size: 100px 100px;
-    position: absolute;
+    /*background-size: 100px 100px;*/
+    position:absolute;
 }
-/* ANIMAÇÃO MENU*/
+/*ANIMAÇÃO MENU*/
 .div-menu li a:hover{
-    transition: 0.3s;
+    transition: 0.2s;
     color: blue;
     border-bottom: 8px solid blue;
 }
@@ -74,9 +72,36 @@ p{
     color: blue;
     border-bottom: 8px solid blue;
 }
-/*DIV PRINCIPAL*/
-div#prin{
-    margin: 20px;
+/*FORMATECAO DIV QUOTE*/
+.quote{
+    width:85%;
+    height: 800px;
+    background-color: rgb(35, 74, 248);
+    margin:5% 5%;
+}
+.quote h1{
+    font-family: Arial, sans-serif;
+    font-size:24pt;
+    color: white;
+    text-shadow: 1px 1px 1px rgba(0,0,0, 0.6);
+    padding: 0px;
+    margin-bottom: 0px;
+    margin-top: 0px;
+}
+.quote h2{
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 18pt;
+    color: white;
+    padding: 0px;
+    margin-top: 0px;
+    margin-bottom: 0px;
+}
+.quote h3{
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 12pt;
+    color: rgb(177, 170, 170);
+    padding: 0px;
+    margin-bottom: 0px;
 }
 /* FORMATACAO IMAGEM COM LEGENDA */
 figure.foto-legenda{
