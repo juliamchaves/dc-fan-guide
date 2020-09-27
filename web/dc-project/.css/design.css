@@ -32,8 +32,8 @@ p{
     margin: 5px 20px 5px auto;
 }
 .div-menu ul{
-    background-color: white;
-    width: 75%;
+    background-color: whitesmoke;
+    width: 85%;
     margin-left: 160px;
     height: 110px;
     top:0px;
@@ -44,8 +44,8 @@ p{
 }
 .div-menu li a{
     display:block;
-    padding: 20px 4px;/*espaça os itens da lista*/
-    font-size: 16pt;
+    padding: 20px 10px ;/*espaça os itens da lista*/
+    font-size: 14pt;
     text-align: center;
     text-transform: uppercase;
     text-decoration: none;
@@ -53,7 +53,7 @@ p{
     /*faixa inferior nos lis do menu*/
     border-bottom: 2px solid rgb(46, 45, 45);
     margin: 10px 10px 0 0;
-    width:200px;
+    width:150px;
 }
 .logo{
     width:100px;
@@ -106,8 +106,9 @@ p{
 }
 .quote p{
     float: right;
-    width: 45%;
-    margin-right: 30px;
+    width: 40%;
+    margin-right: 5%;
+    margin-left: 5%;
     margin-top: 120px;
     color:whitesmoke;
     font-family: Arial, Helvetica, sans-serif;
