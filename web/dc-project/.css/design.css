@@ -149,6 +149,12 @@ figure.foto-legenda:hover figcaption{
     opacity: 1;
 
 }
+table#heroes-hall{
+    border-spacing: 0px;
+}
+.desc td{
+    border: 1px solid #606060;
+}
 footer#rodape{
     clear:both;
     border-top: 1px solid #606060;
