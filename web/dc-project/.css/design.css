@@ -149,11 +149,19 @@ figure.foto-legenda:hover figcaption{
     opacity: 1;
 
 }
-table#heroes-hall{
+table.heroes-hall{
     border-spacing: 0px;
+    margin: 50px auto 20px auto;
 }
 .desc td{
     border: 1px solid #606060;
+    background-color: blue;
+    color:white;
+
+}
+.desc{
+    margin-top: 40px;
+    padding-bottom: 30px;
 }
 footer#rodape{
     clear:both;
